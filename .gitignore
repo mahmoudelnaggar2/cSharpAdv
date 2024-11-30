@@ -1,0 +1,78 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]ogs/
+*.exe
+*.dll
+*.pdb
+*.app
+*.log
+*.cache
+*.csproj.user
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore Rider/JetBrains files
+.idea/
+*.sln.iml
+
+# Ignore Azure/Cloud hosting files
+.localhistory/
+.publishsettings
+*.Publish.xml
+*.scmignore
+*.swp
+wwwroot/
+
+# Ignore tooling
+tools/
+node_modules/
+dist/
+out/
+
+# Ignore generated files by popular libraries
+*.g.cs
+*.g.i.cs
+
+# Ignore coverage, analysis, and profiling results
+coverage/
+*.coverage
+*.coveragexml
+*.codecoverage
+_TestResults/
+*.trx
+
+# Ignore application secrets
+secrets.json
+.env
+*.config.user
+
+# Ignore logs and debug
+*.log
+*.tlog
+*.dmp
+
+# Ignore other miscellaneous files
+*.DS_Store
+Thumbs.db
+Desktop.ini
